@@ -15,18 +15,19 @@ Este proyecto implementa una herramienta de línea de comandos en Python llamada
 
 Ejecutar el programa en la línea de comandos de la siguiente manera:
 
-### En Linux:```
-```bash
-./OUILookup --mac <mac> | --arp | [--help]
- En Windows
-python3 OUILookup.py --mac <mac> | --arp | [--help]
+### En Linux:
+   ```bash
+   ./OUILookup --mac <mac> | --arp | [--help]
+````
+### En Windows
+   python3 OUILookup.py --mac <mac> | --arp | [--help]
 
 
 ## Ejemplos de Uso Linux
 
 1. Consultar fabricante de una MAC:
 
-```bash
+```bash``
 $ python3 OUILookup.py --mac 98:06:3c:92:ff:c5
 MAC address : 98:06:3c:92:ff:c5
 Fabricante  : Samsung Electronics Co.,Ltd
