@@ -23,7 +23,7 @@ Ejecutar el programa en la línea de comandos de la siguiente manera:
  ```bash  python3 OUILookup.py --mac <mac> | --arp | [--help]```
 
 
-## Ejemplos de Uso Linux
+## Ejemplos de Uso 
 
 1. Consultar fabricante de una MAC:
 
