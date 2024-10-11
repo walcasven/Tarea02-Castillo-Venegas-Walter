@@ -50,4 +50,4 @@ git clone https://github.com/walcasven/Tarea02-Castillo-Venegas-Walter.git
 
 cd Tarea02-Castillo-Venegas-Walter
 
-python3 OUILookup.py --mac <mac>
+python OUILookup.py --mac <mac>
