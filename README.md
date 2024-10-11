@@ -15,11 +15,11 @@ Este proyecto implementa una herramienta de línea de comandos en Python llamada
 
 Ejecutar el programa en la línea de comandos de la siguiente manera:
 
-### En Linux:
+### S.O.
+En Linux:
 ```bash
 ./OUILookup --mac <mac> | --arp | [--help]
-
-### En Windows
+ En Windows
 python3 OUILookup.py --mac <mac> | --arp | [--help]
 
 
