@@ -1,5 +1,11 @@
 # Tarea 2 - OUILookup
 
+## Integrantes
+- Juan Barraza
+ juan.barraza@alumnos.uv.cl
+-Walter Castillo
+ walter.castillo@alumnos.uv.cl
+
 
 ## Descripción
 
@@ -36,12 +42,6 @@ Tiempo de respuesta: 17ms
 ```
 
 
-
-## Integrantes
-- Juan Barraza
- juan.barraza@alumnos.uv.cl
--Walter Castillo
- walter.castillo@alumnos.uv.cl
 
 ## Instalación
 
