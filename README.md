@@ -49,8 +49,10 @@ Tiempo de respuesta: 17ms
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/walcasven/Tarea02-Castillo-Venegas-Walter.git
 
-cd Tarea02-Castillo-Venegas-Walter
+git clone https://github.com/xxx/Tarea02-apellidoPaterno-ApellidoMaterno-PrimerNombre.git
+
+cd Tarea02-apellidoPaterno-ApellidoMaterno-PrimerNombre
 
 python OUILookup.py --mac <mac>
+```
