@@ -1,21 +1,53 @@
 #Tarea 2 - OUILookup
-este proyecto implementa una herramienta de linea de comandos en Python llamada OUILookup, que  permite consultar el fabricante de una tarjeta de red a partir de su direccion MAC utilizando una API REST publica.
 
-# Requisitos
-- Python 3.8 o superior 
-- libreria "getopt" para procesar parametros
-- coneccion a internet
 
-# Uso
-Ejecutar el programa en lineas de comandos de la siguiente manera:
-### En Linux: 
+## Descripción
+
+Este proyecto implementa una herramienta de línea de comandos en Python llamada **OUILookup**, que permite consultar el fabricante de una tarjeta de red a partir de su dirección MAC utilizando una API REST pública..
+
+## Requisitos
+
+- Python 3.8 o superior
+- Librería `getopt` para procesar parámetros
+- Conexión a Internet (para hacer consultas a la API REST)
+
+## Uso
+
+Ejecutar el programa en la línea de comandos de la siguiente manera:
+
+### En Linux:
 ```bash
-./OUILookup --mac <mac> |--arp|[--help]
+./OUILookup --mac <mac> | --arp | [--help]
+
 ### En Windows
-python OUILookup.py --mac <mac> |--arp|[--help]
+python3 OUILookup.py --mac <mac> | --arp | [--help]
+
+
+## Ejemplos de Uso Linux
+
+1. Consultar fabricante de una MAC:
+
+```bash
+$ python3 OUILookup.py --mac 98:06:3c:92:ff:c5
+MAC address : 98:06:3c:92:ff:c5
+Fabricante  : Samsung Electronics Co.,Ltd
+Tiempo de respuesta: 17ms
+
+
+
 
 ## Integrantes
 - Juan Barraza
  juan.barraza@alumnos.uv.cl
 -Walter Castillo
  walter.castillo@alumnos.uv.cl
+
+## Instalación
+
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/walcasven/Tarea02-Castillo-Venegas-Walter.git
+
+cd Tarea02-Castillo-Venegas-Walter
+
+python3 OUILookup.py --mac <mac>
