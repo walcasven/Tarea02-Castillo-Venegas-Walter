@@ -27,7 +27,7 @@ Ejecutar el programa en la línea de comandos de la siguiente manera:
 ```
 ### En Windows
  ```bash
- python3 OUILookup.py --mac <mac> | --arp | [--help]
+ python3 OUILookup.py --mac <mac> | --arp |[--help]
 ```
 
 ## Ejemplos de Uso 
