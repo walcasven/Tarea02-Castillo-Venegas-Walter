@@ -37,6 +37,9 @@ Ejecutar el programa en la línea de comandos de la siguiente manera:
 ```bash
 $ python3 OUILookup.py --mac 98:06:3c:92:ff:c5
 ```
+
+2. Ejemplo de respuesta
+
 ```bash
 MAC address : 98:06:3c:92:ff:c5
 Fabricante  : Samsung Electronics Co.,Ltd
